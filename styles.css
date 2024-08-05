@@ -1,0 +1,22 @@
+h1{
+font-family: sans-serif;
+    text-transform: uppercase;
+}
+#main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 1200px;
+    background-color: #6CACE4;
+}
+#main-container > #inner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 1200px;
+    background-color: white;
+}
